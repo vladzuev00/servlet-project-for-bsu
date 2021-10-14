@@ -1,0 +1,92 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: 100% 100%;
+    background: url(../welcome_page/images/welcome_page_background.jpg) repeat fixed center;
+    background-size: cover;
+}
+
+@font-face
+{
+    font-family: 'capture-it';
+    src: url(../fonts/capture-it.eot),
+         url(../fonts/capture-it.ttf),
+         url(../fonts/capture-it.woff),
+         url(../fonts/capture-it.woff2);
+}
+
+#registration_form
+{
+    width: 300px;
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px #cccccc;
+    font-family: capture-it, sans-serif;
+    letter-spacing: 2px;
+}
+
+#title_of_registration_form
+{
+    text-align: center;
+    margin: 0 0 32px 0;
+    font-weight: bold;
+    font-size: 25px;
+    color: #0A0A0A;
+}
+
+.input_field_and_its_label
+{
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.label_of_input_field_of_registration_form
+{
+    position: absolute;
+    top: -18px;
+    z-index: -1;
+    color: #0A0A0A;
+    transition: 0.3s;
+    font-size:15px;
+}
+
+.input_field_of_registration_form
+{
+    width: 100%;
+    padding: 0 0 10px 0;
+    border: none;
+    border-bottom: 1px solid #0A0A0A;
+    background-color: transparent;
+    outline: none;
+    transition: 0.3s;
+}
+
+.button_of_registration_form
+{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-family: capture-it, sans-serif;
+    letter-spacing: 2px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #0A0A0A;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button_of_registration_form:focus,
+.button_of_registration_form:hover
+{
+    background-color: rgba(10, 10, 10, 0.7);
+}
+
+.input_field_of_registration_form:focus
+{
+    border-bottom: 4px solid #0A0A0A;
+}
+

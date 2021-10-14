@@ -1,0 +1,58 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: 100% 100%;
+    background: url(../welcome_page/images/welcome_page_background.jpg) repeat fixed center;
+    background-size: cover;
+}
+
+@font-face
+{
+    font-family: 'capture-it';
+    src: url(../fonts/capture-it.eot),
+         url(../fonts/capture-it.ttf),
+         url(../fonts/capture-it.woff),
+         url(../fonts/capture-it.woff2);
+}
+
+#paragraph_with_message_of_success_registration
+{
+    font-family: capture-it, sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+form
+{
+    width: 300px;
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px #cccccc;
+    font-family: capture-it, sans-serif;
+    letter-spacing: 2px;
+}
+
+#button_to_main_page
+{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 13px;
+    font-family: capture-it, sans-serif;
+    letter-spacing: 2px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #0A0A0A;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#button_to_main_page:focus,
+#button_to_main_page:hover
+{
+    background-color: rgba(10, 10, 10, 0.7);
+}

@@ -1,0 +1,35 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: 100% 100%;
+    background: url(../user_information_page/images/user_information_page_background.jpg) repeat fixed center;
+    background-size: cover;
+}
+
+@font-face
+{
+    font-family: 'capture-it';
+    src: url(../fonts/capture-it.eot),
+         url(../fonts/capture-it.ttf),
+         url(../fonts/capture-it.woff),
+         url(../fonts/capture-it.woff2);
+}
+
+.cell_with_name_of_properties
+{
+    font-family: capture-it, sans-serif;
+    font-weight: bold;
+    color: #0A0A0A;
+    font-size: 30px;
+}
+
+.cell_with_value_of_properties
+{
+    font-family: capture-it, sans-serif;
+    font-weight: lighter;
+    color: #0A0A0A;
+    font-size: 30px;
+}

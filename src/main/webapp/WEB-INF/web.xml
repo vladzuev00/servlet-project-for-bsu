@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0">
+
+
+    <servlet>
+        <servlet-name>servletOfRegistration</servlet-name>
+        <servlet-class>servlet.ServletOfRegistration</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>servletOfRegistration</servlet-name>
+        <url-pattern>/servlet_of_registration</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>servletOfWelcoming</servlet-name>
+        <servlet-class>servlet.ServletOfWelcoming</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>servletOfWelcoming</servlet-name>
+        <url-pattern>/servlet_of_welcoming</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>servletOfLogOn</servlet-name>
+        <servlet-class>servlet.ServletOfLogOn</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>servletOfLogOn</servlet-name>
+        <url-pattern>/servlet_of_log_on</url-pattern>
+    </servlet-mapping>
+
+    <!--Реализовать обработчик исключений
+    <error-page>
+        <location></location>
+    </error-page>
+    -->
+    
+</web-app>

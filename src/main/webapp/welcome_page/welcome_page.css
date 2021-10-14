@@ -1,0 +1,77 @@
+body
+{
+    background-size: 100% 100%;
+    background: url(../welcome_page/images/welcome_page_background.jpg) repeat fixed center;
+    background-size: cover;
+}
+
+@font-face
+{
+    font-family: 'capture-it';
+    src: url(../fonts/capture-it.eot),
+    url(../fonts/capture-it.ttf),
+    url(../fonts/capture-it.woff),
+    url(../fonts/capture-it.woff2);
+}
+
+#navigation_bar ul
+{
+    display: none;
+    background-color: #2D2C2A;
+    position: absolute;
+    top: 100%;
+}
+
+#navigation_bar li:hover
+{
+    display: block;
+}
+
+#navigation_bar, #navigation_bar ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#navigation_bar
+{
+    height: 5vh;
+    background-color: #0A0A0A;
+    padding-left: 25px;
+    min-width: 470px;
+}
+
+#navigation_bar li
+{
+    float: left;
+    position: relative;
+    height: 100%;
+}
+
+#navigation_bar li a
+{
+    display: block;
+    padding: 10px;
+    width: 95vh;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-family: capture-it, sans-serif;
+    font-size: 2vh;
+}
+
+#navigation_bar ul li
+{
+    float: none;
+}
+
+#navigation_bar li:hover
+{
+    background-color: #2D2C2A;
+}
+
+#navigation_bar ul li:hover
+{
+    background-color: #666;
+}

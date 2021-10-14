@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration page</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="keywords" content="registration"/>
+    <meta name="description" content="registration"/>
+    <link rel="shortcut icon" type="image/png" href="../registration_page/images/favicon_for_registration_page.png"/>
+    <link rel="stylesheet" type="text/css" href="../registration_page/registration_page_stylesheet.css" />
+</head>
+<body>
+
+    <form accept-charset="UTF-8" action="/servlet_of_registration" method="post" id="registration_form" target="_self">
+            <fieldset>
+
+                <legend id="title_of_registration_form">Registration</legend>
+
+                <div class="input_field_and_its_label">
+                    <label class="label_of_input_field_of_registration_form" for="input_field_of_user_name">Name</label>
+                    <input id="input_field_of_user_name" class="input_field_of_registration_form" type="text" name="user_name" autocomplete="off" required="required" />
+                </div>
+
+                <div class="input_field_and_its_label">
+                    <label class="label_of_input_field_of_registration_form" for="input_field_of_user_surname">Surname</label>
+                    <input id="input_field_of_user_surname" class="input_field_of_registration_form" type="text" name="user_surname" autocomplete="off" required="required" />
+                </div>
+
+                <div class="input_field_and_its_label">
+                    <label class="label_of_input_field_of_registration_form" for="input_field_of_user_patronymic">Patronymic</label>
+                    <input id="input_field_of_user_patronymic" class="input_field_of_registration_form" type="text" name="user_patronymic" autocomplete="off" required="required" />
+                </div>
+
+                <div class="input_field_and_its_label">
+                    <label class="label_of_input_field_of_registration_form" for="input_field_of_user_email">Email</label>
+                    <input id="input_field_of_user_email" class="input_field_of_registration_form" type="email" name="user_email" autocomplete="off" required="required" />
+                </div>
+
+                <div class="input_field_and_its_label">
+                    <label class="label_of_input_field_of_registration_form" for="input_field_of_user_password">Password</label>
+                    <input id="input_field_of_user_password" class="input_field_of_registration_form" type="password" name="user_password" autocomplete="off" required="required" />
+                </div>
+
+                <input type="submit" value="sign in" class="button_of_registration_form" />
+
+                <input type="reset" value="reset" class="button_of_registration_form" />
+
+            </fieldset>
+    </form>
+
+</body>
+</html>
